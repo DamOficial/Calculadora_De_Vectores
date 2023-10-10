@@ -130,6 +130,13 @@
     <ClCompile Include="..\src\App.cpp" />
     <ClCompile Include="..\src\Main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\App.h" />
+    <ClInclude Include="..\include\Commons.h" />
+    <ClInclude Include="..\include\Vector2.h" />
+    <ClInclude Include="..\include\Vector3.h" />
+    <ClInclude Include="..\include\Vector4.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
